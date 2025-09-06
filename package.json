@@ -5,14 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "export": "next export"
   },
   "author": "TeleportHQ",
   "license": "MIT",
   "dependencies": {
-    "next": "^13.5.11",
+    "next": "13.5",
     "next-intl": "2.10.0",
     "prop-types": "15.7.2",
     "react": "^18.3.1",
